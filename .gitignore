@@ -10,6 +10,11 @@
 .svn/
 *.env
 
+# Firebase related
+*.firebase
+*.firebaserc
+firebase.json
+
 # IntelliJ related
 *.iml
 *.ipr
