@@ -13,9 +13,7 @@ class NavDrawer extends StatelessWidget {
           BoxShadow(color: Colors.black12, blurRadius: 16),
         ],
       ),
-      child: Column(
-        mainAxisSize: MainAxisSize.max,
-        mainAxisAlignment: MainAxisAlignment.start,
+      child: ListView(
         children: <Widget>[
           NavDrawerItem(title: 'Mac', routeName: routeMac),
           NavDrawerItem(title: 'iPad', routeName: routeIPad),

@@ -18,9 +18,7 @@ class HomeWidget extends StatelessWidget {
           child: Column(
             children: <Widget>[
               NavigationBar(),
-              Expanded(
-                child: child,
-              ),
+              Expanded(child: child),
             ],
           ),
         ),

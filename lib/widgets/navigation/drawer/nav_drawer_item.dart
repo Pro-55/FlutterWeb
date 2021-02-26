@@ -23,6 +23,7 @@ class NavDrawerItem extends StatelessWidget {
         ]),
       ),
       onPressed: () {
+        Scaffold.of(context).openEndDrawer();
         locator<NavigationService>().navigateTo(routeName);
       },
     );
